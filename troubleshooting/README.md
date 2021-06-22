@@ -2,6 +2,7 @@ These are step by step instructions to troubleshoot Grid.ai CLI.
 
 - [Check Environment](#check-environment)
 - [Check Grid Access](#check-grid-access)
+- [Recovery Steps](#recovery-steps)
 
 # Check Environment
 
@@ -42,6 +43,8 @@ Required-by:
                                 Grid CLI (v0.3.73)
                                https://docs.grid.ai
 ```
+
+
 
 # Check Grid Access
 
@@ -89,4 +92,20 @@ Verify [`grid status`](https://docs.grid.ai/products/global-cli-configs/cli-api/
 ┡━━━━━━━━━━━━━━╇━━━━━━━━╇━━━━━━━━━━━━━━━╇━━━━━━━━━━╇━━━━━┩
 │ None Active. │        │               │          │     │
 └──────────────┴────────┴───────────────┴──────────┴─────┘
+```
+
+# Recovery Steps
+
+- Try uninstall and re-install of Grid.ai CLI and retry the troubleshooting steps.
+```bash
+pip uninstall lightning-grid
+pip install lightning-grid --upgrade
+```
+
+- Try remove and re-activate conda environment and retry the troubleshooting steps.
+'''sh{.line-numbers}
+conda activate base
+conda env remove --name kd
+conda create --name kd python=3.7
+conda activate kd
 ```
