@@ -103,7 +103,7 @@ pip install lightning-grid --upgrade
 ```
 
 - Try remove and re-activate conda environment and retry the troubleshooting steps.
-'''sh{.line-numbers}
+'''bash
 conda activate base
 conda env remove --name kd
 conda create --name kd python=3.7
