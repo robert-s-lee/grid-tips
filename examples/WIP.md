@@ -1,6 +1,6 @@
 
 
-# CocoDemo (Does not Work)
+# CocoDemo
 
 https://github.com/gridai/grid-docs/issues/38
 
@@ -10,6 +10,7 @@ cd CocoDemo
 gridenv 
 python train.py --gpus=0 --max_epochs=1
 grid run train.py --gpus=0 --max_epochs=1
+```
 
 
 grid run \
