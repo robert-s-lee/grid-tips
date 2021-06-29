@@ -1,4 +1,4 @@
-These are unofficial [Grid.ai](https://grid.ai/) examples. Please refer to Grid.ai [docs](https://docs.grid.ai) for the latest.   
+These are unofficial [Grid.ai](https://grid.ai/) examples. Please refer to Grid.ai [docs](https://docs.grid.ai) for the latest.  View using [GitHub Pages](https://robert-s-lee.github.io/grid-tips/)
 
 # Examples
 
