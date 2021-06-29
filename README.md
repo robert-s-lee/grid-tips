@@ -2,7 +2,7 @@ These are unofficial [Grid.ai](https://grid.ai/) examples. Please refer to Grid.
 
 # Examples
 
-These are a collection of Grid.ai Run Badge examples. The Badge allows one click reproduction of an experiment.  It is so easy these experiments can be kicked off from an iPhone.
+These are a collection of Grid.ai Run Badge ![Grid.ai Run Badge](https://img.shields.io/badge/rid_AI-run-78FF96.svg?labelColor=black&logo=data:image/svg%2bxml;base64,PHN2ZyB3aWR0aD0iNDgiIGhlaWdodD0iNDgiIGZpbGw9Im5vbmUiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PHBhdGggZD0iTTEgMTR2MjBhMTQgMTQgMCAwMDE0IDE0aDlWMzYuOEgxMi42VjExaDIyLjV2N2gxMS4yVjE0QTE0IDE0IDAgMDAzMi40IDBIMTVBMTQgMTQgMCAwMDEgMTR6IiBmaWxsPSIjZmZmIi8+PHBhdGggZD0iTTM1LjIgNDhoMTEuMlYyNS41SDIzLjl2MTEuM2gxMS4zVjQ4eiIgZmlsbD0iI2ZmZiIvPjwvc3ZnPg==) examples. The Badge allows one click reproduction of an experiment.  It is so easy these experiments can be kicked off from an iPhone.
 
 ## Web UI Links
 
