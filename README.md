@@ -2,6 +2,8 @@ These are unofficial [Grid.ai](https://grid.ai/) examples. Please refer to Grid.
 
 # Examples
 
+These are a collection of Grid.ai Run Badge examples. The Badge allows one click reproduction of an experiment.  It is so easy easy these experiments can be kicked off from an iPhone.
+
 ## Web UI Links
 
 | Category    | Description | Grid.ai Run Link                    |
