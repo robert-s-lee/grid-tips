@@ -1,4 +1,5 @@
- 
+These are unofficial Grid.ai examples. Please refer to Grid.ai [docs](https://docs.grid.ai) for the latest.   
+
 # Examples
 
 ## Web UI Links
