@@ -21,4 +21,8 @@ Environment is set up by sourcing [`. gridenv`](examples/gridenv.sh).  CLI equiv
 # Tips
 - [How to troubleshoot Grid.ai CLI](troubleshooting/README.md)
 - [How to create Grid.ai Run Badge](sharing-runs/README.md)
+- Sessions
+  - [Set SSH Keepalive](./session/README.md#set-ssh-keepalive)
+  - [Using Spot Instance](./session/README.md#using-spot-instance)
+
 

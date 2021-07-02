@@ -1,4 +1,15 @@
+## Set SSH Keepalive 
 
+SSH connection can be dropped at times, but it shouldn’t be too frequent. 
+One thing you can do in the client side is to change the keep alive settings globally. You can do that by editing `~/.ssh/config`
+
+```bash
+Host *
+  ServerAliveInterval 240
+  ServerAliveCountMax 4
+```
+
+## Using Spot Instance
 
 ```
 % grid session create --use_spot --instance_type t2.medium   
