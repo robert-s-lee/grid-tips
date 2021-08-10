@@ -1,0 +1,136 @@
+{
+  "id": "9bfdb555-266b-4ae4-9723-3bd0fa8bd0bc",
+  "version": "2.0",
+  "name": "grid run",
+  "url": "https://platform.grid.ai",
+  "tests": [{
+    "id": "e44f6842-717f-462c-8ba2-f8782c2edb08",
+    "name": "grid run",
+    "commands": [{
+      "id": "e560e56b-6f86-49ae-8dd0-f709a2e5d6b5",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "c708c3e4-ceda-45ee-9650-abab10229a83",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1792x1097",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "c9172bd6-d91c-4fe2-b78d-5c36f00b5c9c",
+      "comment": "",
+      "command": "click",
+      "target": "css=.new-btn-icon:nth-child(2)",
+      "targets": [
+        ["css=.new-btn-icon:nth-child(2)", "css:finder"],
+        ["xpath=//div[@id='app']/div/div[2]/div/div/div/div/span/span/button/div", "xpath:idRelative"],
+        ["xpath=//button/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "704f4da8-dac8-4cc1-92d8-dd71a69dd059",
+      "comment": "",
+      "command": "click",
+      "target": "css=li:nth-child(1) .bp3-menu-item-label",
+      "targets": [
+        ["css=li:nth-child(1) .bp3-menu-item-label", "css:finder"],
+        ["xpath=//body[@id='body']/div[5]/div/div/div/div[2]/div/li/a/span", "xpath:idRelative"],
+        ["xpath=//a/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "36110610-d70e-42eb-b35b-0e62bfadb93b",
+      "comment": "",
+      "command": "click",
+      "target": "css=.bp3-popover-target .bp3-input",
+      "targets": [
+        ["css=.bp3-popover-target .bp3-input", "css:finder"],
+        ["xpath=(//input[@value=''])[3]", "xpath:attributes"],
+        ["xpath=//body[@id='body']/div[6]/div/div[2]/div/div/div/div[2]/div/div[2]/div/div/div/div/div/div[2]/div/div/div/div/div/div/span/span/div/input", "xpath:idRelative"],
+        ["xpath=//span/span/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "01c60024-2b12-4397-a3f6-7e46577a8a5f",
+      "comment": "",
+      "command": "click",
+      "target": "css=li:nth-child(2) .bp3-text-overflow-ellipsis",
+      "targets": [
+        ["css=li:nth-child(2) .bp3-text-overflow-ellipsis", "css:finder"],
+        ["xpath=//body[@id='body']/div[7]/div/div/div/div/div/ul/li[2]/a/div", "xpath:idRelative"],
+        ["xpath=//li[2]/a/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "9b904c0c-0ad5-41ee-90b4-066f511ab39c",
+      "comment": "",
+      "command": "click",
+      "target": "css=.repo-files-row:nth-child(1) .repo-files-row-name",
+      "targets": [
+        ["css=.repo-files-row:nth-child(1) .repo-files-row-name", "css:finder"],
+        ["xpath=//body[@id='body']/div[6]/div/div[2]/div/div/div/div[2]/div/div[2]/div/div/div/div/div/div[5]/div/div/div/div[2]/div/div/div/div[2]/div/div/div/div", "xpath:idRelative"],
+        ["xpath=//div/div/div/div[2]/div/div/div/div[2]/div/div/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "82e4a099-9818-4b4d-9b19-ae454d888672",
+      "comment": "",
+      "command": "click",
+      "target": "css=.sc-kAzzGY:nth-child(3)",
+      "targets": [
+        ["css=.sc-kAzzGY:nth-child(3)", "css:finder"],
+        ["xpath=//body[@id='body']/div[6]/div/div[2]/div/div/div/div[2]/div/div[2]/div/div/div/div[3]/div/div/span[2]", "xpath:idRelative"],
+        ["xpath=//div[3]/div/div/span[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "3a2cb35c-6188-4688-8f0e-048bb949256c",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.datastore-container:nth-child(1) .bp3-button:nth-child(1)",
+      "targets": [
+        ["css=.datastore-container:nth-child(1) .bp3-button:nth-child(1)", "css:finder"],
+        ["xpath=(//button[@type='button'])[25]", "xpath:attributes"],
+        ["xpath=//body[@id='body']/div[6]/div/div[2]/div/div/div/div[2]/div/div[2]/div/div/div/div[2]/div/div/div/div/div/div/div/span/span/div/button", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div/div/div/div/div/span/span/div/button", "xpath:position"],
+        ["xpath=//button[contains(.,'No Datastore')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "4f5dae9e-56b4-41b7-8882-309f4cec0886",
+      "comment": "",
+      "command": "click",
+      "target": "css=.sc-gqjmRU svg",
+      "targets": [
+        ["css=.sc-gqjmRU svg", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "c7fd8327-d8a3-43e9-ab27-d45ed20fc9ba",
+      "comment": "",
+      "command": "click",
+      "target": "css=.disabled > span",
+      "targets": [
+        ["css=.disabled > span", "css:finder"],
+        ["xpath=//body[@id='body']/div[6]/div/div[2]/div/div/div/div[3]/button/span", "xpath:idRelative"],
+        ["xpath=//div[3]/button/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Start Run')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "cab374bb-ac9c-4e7c-98f4-381a5114a132",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["e44f6842-717f-462c-8ba2-f8782c2edb08"]
+  }],
+  "urls": ["https://platform.grid.ai/"],
+  "plugins": []
+}
