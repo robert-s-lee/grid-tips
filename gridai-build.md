@@ -1,15 +1,16 @@
 
 ## Execution Environment
 
-By default, Grid.ai uses `conda` within `grid run` and `grid session`.  Within `grid run`, a custom `Dockerfile` specification be be provide wih an alternate execution environment, such as Poetry.
+By default, Grid.ai uses `conda` within `grid run` and `grid session`.  Within `grid run`, a custom `Dockerfile` specification be be provide wih an alternate execution environment, such as Poetry.  `conda` environment can be tailored using `requirements.txt`, `environment.yml`, and `config.yml`
 
-`conda` environment can be tailored using `requirements.txt`, `environment.yml`, and `config.yml` to control the `codna` environment.  Where 
+Ranking in simplicity in usage (from simple to more complex),  requirements.txt, environment.yml, config.yml actions, and Dockerfile.
 
---config FILENAME 
+`grid run` has the following options:
+- `--config FILENAME` 
 Path to Grid config YML      
--d, --dockerfile FILENAME 
+- `-d, --dockerfile FILENAME` 
 Dockerfile for the image building
---dependency_file FILENAME                                       Dependency file path. If not provided and if either `requirements.txt` or `environment.yml` is present in th current-working-directory, that'll be used
+- `--dependency_file FILENAME`                                       Dependency file path. If not provided and if either `requirements.txt` or `environment.yml` is present in th current-working-directory, that'll be used
 
 ## Image Building
 
