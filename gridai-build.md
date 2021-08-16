@@ -1,3 +1,16 @@
+
+## Execution Environment
+
+By default, Grid.ai uses `conda` within `grid run` and `grid session`.  Within `grid run`, a custom `Dockerfile` specification be be provide wih an alternate execution environment, such as Poetry.
+
+`conda` environment can be tailored using `requirements.txt`, `environment.yml`, and `config.yml` to control the `codna` environment.  Where 
+
+--config FILENAME 
+Path to Grid config YML      
+-d, --dockerfile FILENAME 
+Dockerfile for the image building
+--dependency_file FILENAME                                       Dependency file path. If not provided and if either `requirements.txt` or `environment.yml` is present in th current-working-directory, that'll be used
+
 ## Image Building
 
 Q: If a `grid run` is submitted with `--dockerfile` option, is the image built on the same instance type as the job?  i.e. `grid run --instance_type t2.medium --dockerfile custom.dockerfile script.py`, how is the image built?  Is the image built on a `t2.medium instance` or is the image building completely separate?
